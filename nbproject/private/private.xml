@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/var/www/html/GolfApp/src/GestionClubBundle/Controller/webController.php</file>
+            <file>file:/var/www/html/GolfApp/src/GestionClubBundle/Resources/config/routing.yml</file>
+            <file>file:/var/www/html/GolfApp/app/Resources/views/web/new.html.twig.twig</file>
+            <file>file:/var/www/html/GolfApp/src/GestionClubBundle/Controller/socioController.php</file>
+            <file>file:/var/www/html/GolfApp/app/Resources/views/socio/new.html.twig</file>
+            <file>file:/var/www/html/GolfApp/src/AppBundle/AppBundle.php</file>
+            <file>file:/var/www/html/GolfApp/app/config/services.yml</file>
+            <file>file:/var/www/html/GolfApp/src/AppBundle/Controller/DefaultController.php</file>
+            <file>file:/var/www/html/GolfApp/app/config/config.yml</file>
+            <file>file:/var/www/html/GolfApp/src/GestionClubBundle/Form/socioType.php</file>
+            <file>file:/var/www/html/GolfApp/src/GestionClubBundle/Resources/config/services.yml</file>
+            <file>file:/var/www/html/GolfApp/app/Resources/views/default/index.html.twig</file>
+            <file>file:/var/www/html/GolfApp/src/GestionClubBundle/Entity/socio.php</file>
+            <file>file:/var/www/html/GolfApp/app/config/security.yml</file>
+            <file>file:/var/www/html/GolfApp/app/config/routing.yml</file>
+            <file>file:/var/www/html/GolfApp/src/GestionClubBundle/Resources/config/routing/socio.yml</file>
+            <file>file:/var/www/html/GolfApp/src/GestionClubBundle/Resources/config/routing/web.yml</file>
+            <file>file:/var/www/html/GolfApp/src/GestionClubBundle/Controller/DefaultController.php</file>
+        </group>
+    </open-files>
+</project-private>

@@ -2,35 +2,28 @@
 
 namespace GestionClubBundle\Form;
 
-use Symfony\Component\Form\AbstractType;
-use Symfony\Component\Form\FormBuilderInterface;
-use Symfony\Component\OptionsResolver\OptionsResolver;
-
-class socioType extends AbstractType
+class Task
 {
-    /**
-     * {@inheritdoc}
-     */
-    public function buildForm(FormBuilderInterface $builder, array $options)
+    protected $task;
+    protected $dueDate;
+
+    public function getTask()
     {
-        $builder->add('nombre')->add('direccion')->add('telefono')->add('fechaAlta');
-    }/**
-     * {@inheritdoc}
-     */
-    public function configureOptions(OptionsResolver $resolver)
-    {
-        $resolver->setDefaults(array(
-            'data_class' => 'GestionClubBundle\Entity\socio'
-        ));
+        return $this->task;
     }
 
-    /**
-     * {@inheritdoc}
-     */
-    public function getBlockPrefix()
+    public function setTask($task)
     {
-        return 'gestionclubbundle_socio';
+        $this->task = $task;
     }
 
+    public function getDueDate()
+    {
+        return $this->dueDate;
+    }
 
+    public function setDueDate(\DateTime $dueDate = null)
+    {
+        $this->dueDate = $dueDate;
+    }
 }

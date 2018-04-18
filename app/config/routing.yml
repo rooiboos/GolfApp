@@ -5,3 +5,4 @@ gestion_club:
 app:
     resource: '@AppBundle/Controller/'
     type: annotation
+
